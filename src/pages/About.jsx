@@ -22,7 +22,7 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500 text-justify">
         <p>
-          A seasoned software developer with a passion for crafting innovative
+          A A seasoned software developer with a passion for crafting innovative
           solutions and pushing the boundaries of technology. With a diverse
           skill set spanning front-end and back-end development, coupled with
           certifications as an Oracle Certified Java Programmer, I bring a
