@@ -127,11 +127,11 @@ export const skills = [
     name: 'Java',
     type: 'Backend',
   },
-  {
-    imageUrl: python,
-    name: 'Python',
-    type: 'Frontend',
-  },
+  // {
+  //   imageUrl: python,
+  //   name: 'Python',
+  //   type: 'Frontend',
+  // },
   {
     imageUrl: springboot,
     name: 'Spring Boot',
@@ -151,38 +151,37 @@ export const skills = [
 
 export const experiences = [
   {
-    title: 'Senior Java Developer',
+    title: 'Java Developer',
     company_name: 'Paramount Commerce',
     icon: paramountcommerce,
     iconBg: '#FFFFFF',
-    date: 'Sep 2020 - Present',
+    date: 'Sep 2020 - May 2024',
     points: [
-      'Design and development of microservices with Domain Driven Design principles using the Spring Boot framework, ensuring scalability, and improving overall system reliability.',
       'Designed and implemented RESTful APIs using the latest version of Spring Boot, facilitating seamless communication between the front-end and back-end components.',
-      'Developed and optimized database queries using Hibernate, improving the efficiency of data retrieval and analysis.',
+      'Developed and optimized database queries to improve the efficiency of data retrieval and analysis.',
       'Developed and maintained Java-based applications, focusing on both front-end and back-end components.',
       'Collaborated with cross-functional teams to deliver feature-rich applications, ensuring adherence to coding standards and best practices.',
       'Implemented authentication and authorization mechanisms, leveraging Spring Security for secure user access and data protection.',
       'Integrated CI/CD pipelines, automating testing and deployment processes to achieve faster and more reliable releases.',
       'Utilized containerization technologies such as Docker for efficient deployment and scalability, minimizing downtime and improving system reliability.',
-      'Worked closely with database administrators to design and optimize database schemas, enhancing data retrieval and storage efficiency.',
-      'Stayed current with emerging technologies and industry trends, incorporating relevant tools and frameworks to continually improve the development stack.',
+      // 'Worked closely with database administrators to design and optimize database schemas, enhancing data retrieval and storage efficiency.',
+      // 'Stayed current with emerging technologies and industry trends, incorporating relevant tools and frameworks to continually improve the development stack.',
     ],
   },
-  {
-    title: 'Front-End Developer',
-    company_name: 'AJC & Associates Inc',
-    icon: null,
-    iconBg: '#ffffff',
-    date: 'Sep 2017 - Sep 2020',
-    points: [
-      'Developed responsive and mobile-friendly web applications, with modern JavaScript frameworks such as React, Angular, or Vue.js, ensuring a seamless user experience across various devices and screen sizes.',
-      ,
-      'Ensured cross-browser compatibility by rigorously testing and debugging code to deliver consistent performance across popular browsers.',
-      'Collaborated closely with UX/UI designers to translate design prototypes into functional and visually appealing interfaces, prioritizing a user-centric design approach.',
-      'Utilized version control systems like Git for collaborative development, working closely with back-end developers and other team members to integrate front-end components seamlessly into the overall system.',
-    ],
-  },
+  // {
+  //   title: 'Front-End Developer',
+  //   company_name: 'AJC & Associates Inc',
+  //   icon: null,
+  //   iconBg: '#ffffff',
+  //   date: 'Sep 2017 - Sep 2020',
+  //   points: [
+  //     'Developed responsive and mobile-friendly web applications, with modern JavaScript frameworks such as React, Angular, or Vue.js, ensuring a seamless user experience across various devices and screen sizes.',
+  //     ,
+  //     'Ensured cross-browser compatibility by rigorously testing and debugging code to deliver consistent performance across popular browsers.',
+  //     'Collaborated closely with UX/UI designers to translate design prototypes into functional and visually appealing interfaces, prioritizing a user-centric design approach.',
+  //     'Utilized version control systems like Git for collaborative development, working closely with back-end developers and other team members to integrate front-end components seamlessly into the overall system.',
+  //   ],
+  // },
   {
     title: 'Professional Service Engineer',
     company_name: 'Guardian Analytics',
@@ -190,8 +189,8 @@ export const experiences = [
     iconBg: '#ffffff',
     date: 'Feb 2015 - Aug 2017',
     points: [
-      'Work with scripting languages, such as Perl, Awk, Bash, and Python, in order to support data analysis and model deployment',
-      'Execute Perl and Python scripts and monitor the results to ensure for successful deployment of clients model.',
+      'Work with scripting languages, such as Perl, in order to support data analysis and model deployment',
+      'Execute Perl scripts and monitor the results to ensure for successful deployment of clients model.',
       'Work with Algorithm Scientist and model developer to resolve problems and clear the way for successful implementation of clients model.',
       'Working collaboratively with technical and non-technical teams (e.g., Engineering, Sales, and Network Operations)',
       'Manage multiple projects end-to-end',
@@ -225,12 +224,16 @@ export const experiences = [
     ],
   },
   {
-    title: 'E-Commerce Programmer',
+    title: 'E-Commerce Developer',
     company_name: 'Global Connexxions',
     icon: null,
     iconBg: '#ffffff',
     date: 'Apr 1999 - Apr 2007',
-    points: [],
+    points: [
+      'Develop and maintain e-commerce website',
+      'Implement backend with ASP',
+      'Design and create user interface with HTML, CSS, and JavaScript',
+    ],
   },
 ];
 
