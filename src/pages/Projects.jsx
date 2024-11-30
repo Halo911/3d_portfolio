@@ -17,29 +17,21 @@ const Projects = () => {
       <p className="text-slate-500 mt-2 leading-relaxed">
         Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
       </p>
-      <div className="mt-5 flex flex-col">
-        <h4 className="text-2xl font-poppins font-semibold">
-          {project.name}
-        </h4>
-        <p className="mt-2 text-slate-500">{project.description}</p>
-        <div className="mt-5 flex items-center gap-2 font-poppins">
-          <Link
-            to={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-semibold text-blue-600"
-          >
-            Live Link
-          </Link>
-          <img
-            src={arrow}
-            alt="arrow"
-            className="w-4 h-4 object-contain"
-          />
-        </div>
-      </div>
-
-
+      <div className="mt-5 flex items-center gap-2 font-poppins">
+        <Link
+          to="https://halo911.github.io/#works"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-blue-600"
+        >
+          Live Link
+        </Link>
+        <img
+          src={arrow}
+          alt="arrow"
+          className="w-4 h-4 object-contain"
+        />
+      </div>      
       <hr className="border-slate-200" />
 
       <CTA />
